@@ -5,11 +5,12 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:AnimalMatchingGame"
     Shell.FlyoutBehavior="Disabled"
-    Title="AnimalMatchingGame">
+    Title="AnimalMatchingGame" BackgroundColor="#9880E5" TitleColor ="White" >
 
     <ShellContent
         Title="Home"
+        
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Route="MainPage"/>
 
 </Shell>
